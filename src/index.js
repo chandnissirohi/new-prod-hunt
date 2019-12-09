@@ -38,17 +38,19 @@ function App() {
         </header>
       </div>
       <div className="container wrapper">
-        <div className="cards flex3">
-          <div>
-            <div className="flex2">
+        {/* <div className="flex2">
               <h2>TODAY</h2>
               <h4>POPULAR NEWEST</h4>
-            </div>
-          </div>
+            </div> */}
+        <div className="cards flex3">
           {/* first box */}
           <div className="leftBox flex4">
-            <img className="singleimg" src="./single.png" alt="" />
+            {/* <div className="flex2">
+              <h2>TODAY</h2>
+              <h4>POPULAR NEWEST</h4>
+            </div> */}
             <div className="flex-between">
+              <img className="singleimg" src="./single.png" alt="" />
               <div className="firstprod">
                 <h3>Singleton UI Kit</h3>
                 <p>Stylish and playful layouts for beautiful landings</p>
@@ -63,7 +65,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="wrapper">
+          <div className="">
             <h1>Makers Working Today</h1>
             <div className="rightBox flex5">
               <img className="rightbox-img" src="./img1.jpeg" alt="" />
