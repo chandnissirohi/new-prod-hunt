@@ -44,27 +44,78 @@ function App() {
             </div> */}
         <div className="cards flex3">
           {/* first box */}
-          <div className="leftBox flex4">
-            {/* <div className="flex2">
-              <h2>TODAY</h2>
-              <h4>POPULAR NEWEST</h4>
-            </div> */}
-            <div className="flex-between">
-              <img className="singleimg" src="./single.png" alt="" />
-              <div className="firstprod">
-                <h3>Singleton UI Kit</h3>
-                <p>Stylish and playful layouts for beautiful landings</p>
-                <div className="chatone">
-                  <img className="chaticon" src="./chat.png" alt="" />
-                  <p>Design Tools</p>
+          <div>
+            {/* product 1 */}
+            <div className="leftBox flex4">
+              {/* <div className="flex2">
+                <h2>TODAY</h2>
+                <h4>POPULAR NEWEST</h4>
+              </div> */}
+              <div className="flex-between">
+                {/* image */}
+                <img className="singleimg" src="./single.png" alt="" />
+                {/* description */}
+                <div className="firstprod">
+                  <h3>Singleton UI Kit</h3>
+                  <p>Stylish and playful layouts for beautiful landings</p>
+                  <div className="chatone">
+                    <img className="chaticon" src="./chat.png" alt="" />
+                    <p>Design Tools</p>
+                  </div>
+                </div>
+                {/* triangle */}
+                <div className="trianglebox">
+                  <img className="triangle" src="./triangle.png" alt="" />
+                  <p>22</p>
                 </div>
               </div>
-              <div className="trianglebox">
-                <img className="triangle" src="./triangle.png" alt="" />
-                <p>22</p>
+            </div>
+            {/* product 2 */}
+            <div className="leftBox flex4">
+              <div className="flex-between">
+                {/* image */}
+                <img className="singleimg" src="./single.png" alt="" />
+                {/* description */}
+                <div className="firstprod">
+                  <h3>Singleton UI Kit</h3>
+                  <p>Stylish and playful layouts for beautiful landings</p>
+                  <div className="chatone">
+                    <img className="chaticon" src="./chat.png" alt="" />
+                    <p>Design Tools</p>
+                  </div>
+                </div>
+                {/* triangle */}
+                <div className="trianglebox">
+                  <img className="triangle" src="./triangle.png" alt="" />
+                  <p>22</p>
+                </div>
+              </div>
+            </div>
+            {/* product 3 */}
+            <div className="leftBox flex4">
+              <div className="flex-between">
+                {/* image */}
+                <img className="singleimg" src="./single.png" alt="" />
+                {/* description */}
+                <div className="firstprod">
+                  <h3>Singleton UI Kit</h3>
+                  <p>Stylish and playful layouts for beautiful landings</p>
+                  <div className="chatone">
+                    <img className="chaticon" src="./chat.png" alt="" />
+                    <p>Design Tools</p>
+                  </div>
+                </div>
+                {/* triangle */}
+                <div className="trianglebox">
+                  <img className="triangle" src="./triangle.png" alt="" />
+                  <p>22</p>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* Right box */}
+
           <div className="">
             <h1>Makers Working Today</h1>
             <div className="rightBox flex5">
@@ -89,8 +140,8 @@ function App() {
             </div>
 
             {/* Radio */}
-            <div>
-              <h6>Product Hunt Radio</h6>
+            <div className="just-radio">
+              <h3>Product Hunt Radio</h3>
               <div className="producthuntradio">
                 <p className="text">
                   What not to do when marketing your product
